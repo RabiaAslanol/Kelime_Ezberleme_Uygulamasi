@@ -16,5 +16,12 @@ namespace Kelime_Ezberleme_Uygulamasi
         {
             InitializeComponent();
         }
+
+        private void btnKayit_Click(object sender, EventArgs e)
+        {
+            string username=txtUserNameKayit.Text;
+            string password=txtPasswordKayit.Text;
+            string mail=txtMail.Text;
+        }
     }
 }
